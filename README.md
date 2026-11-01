@@ -1,6 +1,6 @@
 # Elanco Tick Sightings - Backend API (Placement Task)
 
-Hey, this is my backend solution for the Elanco Software Engineer placement task[cite: 4]. I built a lightweight Python API using FastAPI that pulls data from Elanco's API, cleans it up, handles errors, and runs some analytics/risk scoring on it.
+Hey, this is my backend solution for the Elanco Software Engineer placement taskj. I built a lightweight Python API using FastAPI that pulls data from Elanco's API, cleans it up, handles errors, and runs some analytics/risk scoring on it.
 
 ---
 
