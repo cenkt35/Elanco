@@ -31,3 +31,11 @@ Real-world data is messy, so the ingestion pipeline fixes a few things automatic
 1. **Install dependencies:**
    ```bash
    pip install fastapi uvicorn httpx pytest
+
+## Future Improvements (If I Had More Time)
+
+If I had more time to expand this backend service, I would implement the following enhancements:
+1. **Automated Testing & CI/CD Pipeline:** Set up GitHub Actions to automatically run `pytest` on every commit and push.
+2. **Database Persistence:** Replace the in-memory repository structure with a lightweight persistent database like SQLite or PostgreSQL using SQLAlchemy.
+3. **Advanced Caching & Rate Limiting:** Implement Redis caching to further optimize response times for heavy regional reporting queries.
+4. **Enhanced ML Forecasting:** Upgrade the risk-forecast extension from statistical scoring to a proper time-series forecasting model (such as ARIMA or Prophet) for seasonal outbreak predictions.
